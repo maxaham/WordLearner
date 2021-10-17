@@ -11,13 +11,18 @@ body {
     margin: 0;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Scheherazade New', serif;
     color:white;
-    text-align: center;
+    font-size: 56px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(80, 80, 80);
 }
 form {
-    text-align: center;
+    text-align: left;
     color: white;
+    padding: 20px;
 }
 a:link
 {
@@ -41,18 +46,10 @@ a:active
    color: #fb3f00;
    text-decoration: none;
 }
-#forecastResults {
-    display: flex !important;
-    flex-wrap: wrap;
-}
-#weatherResults {
+#chosenWord {
     text-align: center;
-    margin: auto;
-}
-#forecastOne {
-    font-family: 'Scheherazade New', serif;
-    text-align: center;
-    padding: 10px;
+    width: 500px;
+    display: inline-block;
 }
 .container {
     min-height: 600px;
